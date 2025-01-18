@@ -1,26 +1,32 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #c9b6b6;
     text-align: center;
     padding: 50px;
+    background-image: url('online-payment.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
 }
 
-/* Style for checkbox and radio buttons */
+
+
 input[type="checkbox"],
 input[type="radio"] {
     margin: 10px;
     transform: scale(1.2);
 }
 
-/* Labels for better visibility */
+
 label {
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
 }
 
-/* Submit Button Styling */
+
 #mysubmit {
     background-color: #007BFF;
     color: white;
@@ -32,13 +38,12 @@ label {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover Effect */
 #mysubmit:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-/* Style for result text */
+
 #checkboxresult,
 #payresult {
     font-size: 1.2em;
@@ -46,3 +51,4 @@ label {
     color: #444;
     margin-top: 15px;
 }
+
